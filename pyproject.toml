@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "defichain-data-toolkit"
+version = "0.1.0"
+description = "A toolkit to work with defichain-data.com"
+authors = ["Markus Neusinger <markus@neusinger.com>"]
+readme = "README.md"
+packages = [{include = "defichain_data_toolkit"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pytest = "^7.4.2"
+pandas = "^2.1.0"
+tqdm = "^4.66.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
