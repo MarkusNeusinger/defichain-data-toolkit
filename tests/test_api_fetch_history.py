@@ -1,6 +1,6 @@
 import pytest
 import pandas as pd
-from helpers.api_fetch_history import fetch_history
+from helpers import fetch_history
 
 
 def test_api_fetch_history_invalid_history_type():
