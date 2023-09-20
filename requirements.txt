@@ -1,3 +1,5 @@
 pytest
 pandas
 tqdm
+jupyter
+matplotlib
