@@ -1,0 +1,70 @@
+# Matplotlib Defichain Style
+# based on https://github.com/garrettj403/SciencePlots
+
+# Set color cycle
+axes.prop_cycle : cycler('color', ['F800AB', 'CB81FF', '7EC1FF', '52F1FF'])
+
+# Set default figure size
+figure.figsize : 16, 9
+
+# Set x axis
+xtick.direction : in
+xtick.major.size : 10
+xtick.major.width : 2
+xtick.minor.size : 5
+xtick.minor.width : 1
+xtick.minor.visible : True
+xtick.top : True
+
+# Set y axis
+ytick.direction : in
+ytick.major.size : 10
+ytick.major.width : 2
+ytick.minor.size : 5
+ytick.minor.width : 1
+ytick.minor.visible : True
+ytick.right : True
+
+# Set line widths
+axes.linewidth : 2
+lines.linewidth : 2.
+
+# Set marker size
+lines.markersize : 4
+
+# Grid lines
+axes.grid : True
+axes.axisbelow : True
+grid.linestyle : --
+grid.color : k
+grid.alpha : 0.5
+grid.linewidth : 1
+
+# Legend
+legend.frameon : True
+legend.framealpha : 1.0
+legend.fancybox : True
+legend.numpoints : 1
+
+# Always save as 'tight'
+savefig.bbox : tight
+savefig.pad_inches : 0.05
+savefig.dpi : 300
+
+# Use serif fonts
+font.serif : cmr10, Computer Modern Serif, DejaVu Serif
+font.family : serif
+axes.formatter.use_mathtext : True
+mathtext.fontset : cm
+
+# Fontsizes
+xtick.labelsize : 16
+ytick.labelsize : 16
+legend.fontsize : 16
+legend.title_fontsize : 16
+axes.titlesize : 20
+axes.labelsize : 20
+
+# Use LaTeX for math formatting
+text.usetex : False
+text.latex.preamble : \usepackage{amsmath} \usepackage{amssymb}
