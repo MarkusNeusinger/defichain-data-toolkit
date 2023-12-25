@@ -18,6 +18,7 @@ Coming soon!
 | ----- |  ----- |
 | [Daily DFI Burn/Emission](https://github.com/MarkusNeusinger/defichain-data-toolkit/blob/main/notebooks/daily_dfi_burn_emission.ipynb) | ... |
 | [DFI Reserve Staking Pools](https://github.com/MarkusNeusinger/defichain-data-toolkit/blob/main/notebooks/dfi_reserve_stakingPools.ipynb) | ... |
+| [Daily DUSD/USD needed to reach PEG](https://github.com/MarkusNeusinger/defichain-data-toolkit/blob/main/notebooks/dusd_buy_needed_peg.ipynb) | ... |
 
 ## Ask Questions
 
